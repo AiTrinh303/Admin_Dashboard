@@ -1,0 +1,10 @@
+.chartBox {
+    display: flex;
+    height: 100%;
+
+    .boxInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

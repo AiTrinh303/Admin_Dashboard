@@ -1,0 +1,32 @@
+.topBox{
+    h1{
+        margin-bottom: 20px;
+    }
+
+    .list{
+
+        .listItem{
+            display: flex;
+            align-items: center;
+            justify-content: ;
+
+            .user{
+                img{
+                    width: 40px;
+                    height: 40px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+                .userTexts{
+                    .username{
+
+                    }
+                    .email{
+
+                    }
+                }
+
+            }
+        }
+    }
+}

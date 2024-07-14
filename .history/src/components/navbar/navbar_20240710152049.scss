@@ -1,0 +1,14 @@
+.navbar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    .icons
+    .user {
+        img{
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+}

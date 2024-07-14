@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    span{
+        &:first-child{
+            font-weight: bold;
+        }
+        &:lastchild
+    }
+}

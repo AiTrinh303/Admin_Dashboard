@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.home {
+    
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat()
+
+    .box {
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid $soft-bg;
+    }
+}

@@ -1,0 +1,25 @@
+hr {
+    border: 0;
+    height: 1px;
+    background: #828282;
+    
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    span{
+        &:first-child{
+            font-weight: bold;
+        }
+        &:last-child{
+            font-size: 14px;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

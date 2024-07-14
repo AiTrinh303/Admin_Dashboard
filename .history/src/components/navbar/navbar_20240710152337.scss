@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .icons{
+        display: flex;
+        align-items: center;
+
+        .user {
+            display: flex;
+            align-items: center;
+
+            img{
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+}

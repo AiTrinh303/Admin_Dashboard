@@ -1,0 +1,46 @@
+.navbar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        gap: 10px;
+    }
+
+    .icons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .notification{
+            position: relative;
+            span{
+                position: absolute;
+                top: -10px;
+                right: -10px;
+                width: 16px;
+                height: 16px;
+                background-color: red;
+                color: white;
+                border-radius: 50%;
+                font-size: 14px;}
+            
+        }
+        .user {
+            display: flex;
+            align-items: center;
+
+            img{
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+}
