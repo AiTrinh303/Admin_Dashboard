@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     chunkSizeWarningLimit: 1000, // increase limit to 1000 kBs
-    outDir: 'build', 
+    
     rollupOptions: {
       output: {
         manualChunks(id) {

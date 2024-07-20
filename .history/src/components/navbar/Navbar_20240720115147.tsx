@@ -19,7 +19,7 @@ const Navbar = () => {
             <span>1</span>
           </div>
           <div className="user">
-            <img src="/profile.jpeg" alt="profile" />
+            <img src="/profile.jpe" alt="profile" />
             <span>Ai</span>
           </div>
           <img src="/settings.svg" alt="" className="container" />
