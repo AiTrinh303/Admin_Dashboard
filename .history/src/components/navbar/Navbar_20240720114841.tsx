@@ -6,8 +6,8 @@ const Navbar = () => {
     <>
       <div className='navbar'>
         <div className="logo">
-          {/* <img src="icons8-logo.svg" alt="logo" /> */}
-          <span>🌸 JO JO</span>
+          <img src="icons8-logo.svg" alt="logo" />
+          <span>JO JO</span>
         </div>
   
         <div className="icons">
@@ -19,7 +19,7 @@ const Navbar = () => {
             <span>1</span>
           </div>
           <div className="user">
-            <img src="/profile.svg" alt="profile" />
+            <img src="/profile." alt="profile" />
             <span>Ai</span>
           </div>
           <img src="/settings.svg" alt="" className="container" />
